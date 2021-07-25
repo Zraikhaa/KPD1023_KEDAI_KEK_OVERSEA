@@ -3,7 +3,46 @@
         <title>
             KEDAI KEK OVERSEA
         </title>
-        <style></style>
+        <style>
+            .header {
+                /*untuk pastikan content dalam 
+                class header tidak terkeluar*/
+                overflow:hidden;
+                border:double;
+                /*letakkan class header sentiasa tengah
+                antara kiri dan kanan*/
+                margin:auto;
+            }
+            .header_logo {
+                /*mengekalkan class ini sentiasa dikiri*/
+                float:left;
+                border-right:double;
+                /*jarak content dgn border bhgn dalam*/
+                padding:10px;
+                /*tetapkan lebar class ini supaya ada 
+                ruang disebelah kanan untuk elemen lain
+                masuk*/
+                width:30%;
+            }
+            /*panggil tag img dalam kelas header_logo*/
+            .header_logo img {
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            .header_greeting {
+                /*beri ruang dibagian atasantara border
+                dgn element*/
+                margin-top:50px;
+                margin-left:auto;
+                margin-right:auto;
+                text-align:center;
+                font-size:40;
+                font-weight:bold;
+           }
+       </style>
+
+        
     </head>
 
     <body>
